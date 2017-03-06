@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "frontalfaceDetection", "frontalfaceDetection\frontalfaceDetection.vcxproj", "{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MCSF_FaceDetection", "MCSF_FaceDetection\MCSF_FaceDetection.vcxproj", "{21324EF1-0375-4A7F-BBF0-29B899074AEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}.Debug|x64.ActiveCfg = Debug|x64
-		{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}.Debug|x64.Build.0 = Debug|x64
-		{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}.Debug|x86.ActiveCfg = Debug|Win32
-		{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}.Debug|x86.Build.0 = Debug|Win32
-		{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}.Release|x64.ActiveCfg = Release|x64
-		{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}.Release|x64.Build.0 = Release|x64
-		{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}.Release|x86.ActiveCfg = Release|Win32
-		{E3DE6300-2F63-4809-AFC9-9FB083F4A33D}.Release|x86.Build.0 = Release|Win32
+		{21324EF1-0375-4A7F-BBF0-29B899074AEB}.Debug|x64.ActiveCfg = Debug|x64
+		{21324EF1-0375-4A7F-BBF0-29B899074AEB}.Debug|x64.Build.0 = Debug|x64
+		{21324EF1-0375-4A7F-BBF0-29B899074AEB}.Debug|x86.ActiveCfg = Debug|Win32
+		{21324EF1-0375-4A7F-BBF0-29B899074AEB}.Debug|x86.Build.0 = Debug|Win32
+		{21324EF1-0375-4A7F-BBF0-29B899074AEB}.Release|x64.ActiveCfg = Release|x64
+		{21324EF1-0375-4A7F-BBF0-29B899074AEB}.Release|x64.Build.0 = Release|x64
+		{21324EF1-0375-4A7F-BBF0-29B899074AEB}.Release|x86.ActiveCfg = Release|Win32
+		{21324EF1-0375-4A7F-BBF0-29B899074AEB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,27 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="FaceDetection.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="VideoProcessor.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="FeatureTracker.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CircleDetector.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FaceDetection.h">
+    <ClInclude Include="CircleDetector.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="VideoProcessor.h">
+    <ClInclude Include="FaceDetection.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="FeatureTracker.h">
@@ -44,8 +27,25 @@
     <ClInclude Include="FrameProcessor.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CircleDetector.h">
+    <ClInclude Include="VideoProcessor.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CircleDetector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceDetection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureTracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoProcessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -72,9 +72,10 @@ void FaceDetection::process(const cv::Mat & input, cv::Mat & output)
 	}
 }
 
-bool FaceDetection::setCascadeXMLPath(const std::string xmlPath)
+bool FaceDetection::loadCascadeXMLPath(const std::string &xmlPath)
 {
 	_pccf = std::make_shared<cv::CascadeClassifier>();
+	//_pccf = new cv::CascadeClassifier();
 	if (!_pccf->load(xmlPath))
 	{
 		std::cout << "load xml file failed" << std::endl;

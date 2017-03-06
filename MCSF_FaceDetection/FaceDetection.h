@@ -21,12 +21,13 @@ public:
 
 	virtual void process(const cv::Mat &input, cv::Mat &output);
 
-	bool setCascadeXMLPath(const std::string xmlPath);
+	// must use before mode opencv 
+	bool loadCascadeXMLPath(const std::string &xmlPath);
 
 private:
 	// OPENCV_CASCADE_CLASSIFIER
 	FaceDetectionMode _faceDetectionMode;
-	std::shared_ptr< cv::CascadeClassifier > _pccf;   //创建分类器对象
+	std::shared_ptr<cv::CascadeClassifier> _pccf;   //创建分类器对象
 	std::vector<cv::Rect> _faces;  //创建一个容器保存检测出来的脸
 
 	// SHIQIYU_LIBFACE_DETECTION
